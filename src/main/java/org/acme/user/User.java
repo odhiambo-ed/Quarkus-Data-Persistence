@@ -8,7 +8,7 @@ import java.time.ZonedDateTime;
 import java.util.List;
 
 @Entity
-@Table(name="users")
+@Table(name = "users")
 public class User extends PanacheEntity {
     @Column(unique = true, nullable = false)
     public String name;
