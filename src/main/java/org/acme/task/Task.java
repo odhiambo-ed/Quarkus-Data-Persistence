@@ -16,7 +16,7 @@ public class Task extends PanacheEntity {
 
     @Column(length = 1000)
     public String description;
-    public Interger priority;
+    public Integer priority;
 
     @ManyToOne(optional = false)
     public User user;
